@@ -1,0 +1,80 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #093819;
+    border-radius: 5px;
+    background-color: #ffffff10;
+    backdrop-filter: blur(15px);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+  }
+  
+  .chart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 100px; 
+    border: 1px solid #093819;
+    border-radius: 5px;
+    background-color: #000000b9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15px);
+  }
+  
+  .artist-grid {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-right: 100px;
+
+  }
+  
+  .column {
+    margin-left: 100px;
+    flex: 1;
+  }
+  
+  .artist-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #000000b9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15px);
+  }
+  
+  .artist-image {
+    width: 85px;
+    height: 85px;
+    object-fit: cover;
+    border: 1.5px solid rgb(212, 212, 212);
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .artist-info {
+    flex: 1;
+    color: #ffffff; 
+  }
+  .artist-info p {
+    color: #b3b3b3;
+  }
+
+.spotipie_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
